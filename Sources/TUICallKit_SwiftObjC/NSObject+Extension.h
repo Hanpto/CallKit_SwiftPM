@@ -1,5 +1,5 @@
-// CocoaPods 下 umbrella header 会隐式带 Foundation，SPM 没有；
-// 由 tools/pod2spm/publish_source.py 补上
+// CocoaPods 下 pod 的 umbrella header 会隐式带 Foundation / UIKit，
+// SPM 没有这个机制，由 tools/pod2spm/publish_source.py 补上
 #import <Foundation/Foundation.h>
 
 //

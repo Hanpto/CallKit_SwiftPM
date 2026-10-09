@@ -26,7 +26,8 @@ let package = Package(
                 .product(name: "TUICore_SwiftPM", package: "TUICore_SwiftPM"),
                 .product(name: "Chat_SDK_SwiftPM", package: "Chat_SDK_SwiftPM"),
                 .product(name: "SnapKit", package: "SnapKit"),
-                .product(name: "SDWebImage", package: "SDWebImage")
+                .product(name: "SDWebImage", package: "SDWebImage"),
+                "TUICallKit_SwiftObjC"
             ],
             path: "Sources",
             exclude: ["TUICallKit_SwiftObjC"],
